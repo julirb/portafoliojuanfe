@@ -1,16 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 
-import { Home } from './components/pages/Home/Home.jsx'
-import { Introduccion } from './components/pages/Introduccion/Introduccion.jsx'
+import { Rutas } from './components/Routes/Rutas/Rutas'
+import { BrowserRouter } from 'react-router-dom'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Introduccion></Introduccion>
+    <BrowserRouter>
+    <Rutas></Rutas>
+    </BrowserRouter>
   </StrictMode>,
 )

@@ -1,3 +1,5 @@
+
+
 export function Introduccion(){
     return(
         <>
@@ -11,7 +13,7 @@ export function Introduccion(){
                     </div>
 
                     <div className="col-12 col-md-5">
-                        <h1 className="display-1">Juan Jose Gallego Mesa &copy;</h1>
+                        <h1 className="display-1">Juliana Isabel Rodríquez Baldovino  &copy;</h1>
                         <p>
                             I am a software development student based in Medellín, passionate about building digital solutions that solve real-world problems. Throughout my academic journey, I have gained solid foundations in programming logic and the design of relational databases using SQL. I have also developed skills  in front-end technologies such as HTML, CSS, JavaScript, and React, enabling me to build responsive and user-friendly interfaces.
 
