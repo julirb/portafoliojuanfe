@@ -9,7 +9,7 @@ export function Introduccion(){
                 <div className="row">
 
                     <div className="col-12 col-md-7">
-                        <img src="../../../../src/assets/img/caricatura.png" alt="" className="img-fluid rounded"/>
+                        <img src="../../../../src/assets/img/anime juli.jpg" alt="" className="img-fluid rounded"/>
                     </div>
 
                     <div className="col-12 col-md-5">
